@@ -1,0 +1,13 @@
+[project]
+name = "stmsim"
+version = "0.1.0"
+description = "Simulated STM images (constant-current topographs) of small molecules from DFT orbitals"
+requires-python = ">=3.10"
+dependencies = ["numpy", "scipy", "h5py", "matplotlib"]
+
+[project.optional-dependencies]
+dft = ["pyscf"]
+test = ["pytest"]
+
+[tool.setuptools]
+packages = ["stmsim"]

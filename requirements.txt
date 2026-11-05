@@ -1,0 +1,5 @@
+numpy
+scipy
+h5py
+matplotlib
+pyscf      # only for computing orbitals (from_xyz / from_dft / QH9)
